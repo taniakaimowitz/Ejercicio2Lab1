@@ -6,7 +6,8 @@ def sum_items(lista):
             suma = suma + x
     if suma == 0:
         print ("Ningun ítem es numérico")
-    print ('La suma de todos los ítems es ' + str(suma))
+    else:
+        print ('La suma de todos los ítems es ' + str(suma))  
 sum_items([“box”, “car”, “cat”, “tree”])
 
 
